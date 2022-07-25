@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+.cabecalho h1{
+    font-family:Passion One;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+.cabecalho p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+#text p {
+    padding-top: 35px;
+    font-family: Sriracha;
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 35px;
+    padding-left: 10px;
+}
+
+.image {
+    background-image: url(imagens/background001.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-position:right center;
+    background-size: cover;
+}
+
+.image > p {
+    font-family: Sriracha;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: white;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+}
+
+#text03 {
+    font-family: Sriracha;
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-left: 10px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+#image02 {
+    background-image: url(imagens/background002.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    
+}
+
+#image02 > p {
+    font-size: 1.5em;
+    line-height: 2em;
+    font-family: sriracha;
+    color: white;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+
+}
+
+#text05 p{
+    padding-top: 35px;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-family: Sriracha;
+    padding-left: 10px;
+}
+
+.credits p {
+    margin: 0;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
